@@ -544,12 +544,17 @@ section {
 
 .skill-bar .bar .javascript {
   width: 40%;
-  animation: javascript 4s;
+  animation: javascript 3s;
 }
 
 .skill-bar .bar .PHP {
   width: 60%;
-  animation: PHP 4s;
+  animation: PHP 3s;
+}
+
+.skill-bar .bar .LARAVEL {
+  width: 50%;
+  animation: LARAVEL 3s;
 }
 
 /*skill right*/
@@ -849,6 +854,15 @@ footer a i {
   }
   100% {
     width: 60%;
+  }
+}
+
+@keyframes LARAVEL {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
   }
 }
 
