@@ -557,6 +557,11 @@ section {
   animation: LARAVEL 3s;
 }
 
+.skill-bar .bar .TAILWIND {
+  width: 50%;
+  animation: LARAVEL 3s;
+}
+
 /*skill right*/
 .professional {
   display: grid;
@@ -858,6 +863,15 @@ footer a i {
 }
 
 @keyframes LARAVEL {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes TAILWIND {
   0% {
     width: 0%;
   }
